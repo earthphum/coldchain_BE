@@ -1,0 +1,64 @@
+INFO 2025-04-01 17:21:44,409 autoreload Watching for file changes with StatReloader
+INFO 2025-04-01 17:48:49,729 autoreload Watching for file changes with StatReloader
+INFO 2025-04-01 17:51:18,450 autoreload /Users/earth/Desktop/Coldchain/coldchain/settings.py changed, reloading.
+INFO 2025-04-01 17:51:18,972 autoreload Watching for file changes with StatReloader
+ERROR 2025-04-01 17:51:28,025 log Internal Server Error: /api/login/token
+Traceback (most recent call last):
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/login/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2025-04-01 17:52:06,417 log Internal Server Error: /api/login/token
+Traceback (most recent call last):
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/login/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+INFO 2025-04-01 17:52:19,428 autoreload Watching for file changes with StatReloader
+ERROR 2025-04-01 17:52:24,177 log Internal Server Error: /api/login/token
+Traceback (most recent call last):
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/login/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+INFO 2025-04-01 23:27:41,943 autoreload Watching for file changes with StatReloader
+WARNING 2025-04-01 23:55:30,248 log Unauthorized: /api/login/token/
+WARNING 2025-04-01 23:56:43,131 log Unauthorized: /api/login/token/
+ERROR 2025-04-02 00:15:55,324 log Internal Server Error: /api/login/token
+Traceback (most recent call last):
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/earth/Desktop/Coldchain/.venv/lib/python3.13/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/login/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
