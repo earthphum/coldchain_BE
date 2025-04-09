@@ -1,4 +1,6 @@
 .env
-.venv
+.venv/
 db.sqlite3
 django.log
+__pycache__/
+*.py[cod]
